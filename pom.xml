@@ -100,4 +100,4 @@
         <url>http://localhost:8080/nexus-2.8.1-01/content/repositories/snapshots</url>
     </snapshotRepository>
    
-  </distributionManagement> 
+</distributionManagement>
