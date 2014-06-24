@@ -88,7 +88,7 @@
 	<repository>
         <id>deployment</id>
         <name>internal Releases</name>
-        <url>http://localhost:8080/nexus/content/repositories/releases</url>
+        <url>http://localhost:8080/nexus-2.8.1-01/content/repositories/releases</url>
     </repository>
     <!-- use the following if you ARE using a snapshot version. -->
     <snapshotRepository>
