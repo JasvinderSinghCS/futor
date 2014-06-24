@@ -67,11 +67,10 @@
 	</build>
 </project>
 <distributionManagement>
-    <!-- use the following if you're not using a snapshot version. -->
-    <repository>
-        <id>nexus</id>
-        <name>RepositoryProxy</name>
-        <url>http://localhost:8080/nexus-2.8.1-01/content/repositories/releases</url>
+ <repository>
+      <id>nexus</id>
+      <name>Nexus Staging Repo</name>
+      <url>http://localhost:8080/nexus-2.8.1-01/service/local/staging/deploy/maven2/</url>
     </repository>
     <!-- use the following if you ARE using a snapshot version. -->
     <snapshotRepository>
@@ -79,4 +78,5 @@
         <name>RepositoryProxy</name>
         <url>http://localhost:8080/nexus-2.8.1-01/content/repositories/snapshots</url>
     </snapshotRepository>
-</distributionManagement>
+   
+  </distributionManagement>
