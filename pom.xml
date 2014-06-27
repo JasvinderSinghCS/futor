@@ -38,6 +38,9 @@
 	</dependency>  
    
   </dependencies>
+	 <scm>
+    <developerConnection>scm:svn:https://github.com/futorintern/futor</developerConnection>
+  </scm>
   
   <build>
 		<plugins>
