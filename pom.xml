@@ -39,7 +39,7 @@
    
   </dependencies>
   <scm>
-	<developerConnection>scm:https://github.com/futorintern/releasetry</developerConnection>
+	<developerConnection>scm:https://github.com/futorintern/futor.git</developerConnection>
   </scm> 
   
   <build>
