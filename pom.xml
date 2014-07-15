@@ -38,6 +38,9 @@
 	</dependency>  
    
   </dependencies>
+  <scm>
+	<developerConnection>scm:https://github.com/futorintern/releasetry</developerConnection>
+  </scm> 
   
   <build>
 		<plugins>
