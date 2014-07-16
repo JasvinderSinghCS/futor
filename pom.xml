@@ -43,13 +43,13 @@
   </scm> 
   
   <build>
-		<plugins>
+		<!--<plugins>
 			<plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.1</version>
         </plugin> 
-			
+			-->
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -77,14 +77,14 @@
 	</build>
 </project>
 
-<distributionManagement>
-     <!--use the following if you're not using a snapshot version. 
+ <!--<distributionManagement>
+    use the following if you're not using a snapshot version. 
     <repository>
         <id>nexusrelease</id>
         <name>futorrelease</name>
         <url>http://localhost:8080/nexus/content/repositories/nexusrelease/</url>
     </repository>
-    <!--use the following if you ARE using a snapshot version.-->
+    <!--use the following if you ARE using a snapshot version.
     <snapshotRepository>
         <id>nexus2</id>
         <name>futor2</name>
