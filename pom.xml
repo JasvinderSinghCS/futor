@@ -78,13 +78,13 @@
 </project>
 
 	<distributionManagement>
-     use the following if you're not using a snapshot version. 
+     <!--use the following if you're not using a snapshot version. -->
     <repository>
         <id>nexusrelease</id>
         <name>futorrelease</name>
         <url>http://localhost:8080/nexus/content/repositories/nexusrelease/</url>
     </repository>
-    use the following if you ARE using a snapshot version.
+    <!--use the following if you ARE using a snapshot version.-->
     <snapshotRepository>
         <id>nexus2</id>
         <name>futor2</name>
