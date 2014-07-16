@@ -75,9 +75,8 @@
 			
 		</plugins>
 	</build>
-</project>
-
- <distributionManagement>
+	
+	 <distributionManagement>
     <!--use the following if you're not using a snapshot version. --> 
     <repository>
         <id>nexusrelease</id>
@@ -91,5 +90,11 @@
         <url>http://localhost:8080/nexus/content/repositories/nexus2/</url>
     </snapshotRepository>
 </distributionManagement>
+	
+	
+	
+</project>
+
+
 
  <!-- ycdydydytdytdjccxjcjc --> 
