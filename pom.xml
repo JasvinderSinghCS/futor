@@ -76,20 +76,20 @@
 		</plugins>
 	</build>
 </project>
-<!--
-<distributionManagement>
-    <!-- use the following if you're not using a snapshot version. -->
- <!--   <repository>
+
+<!--   <distributionManagement>
+     use the following if you're not using a snapshot version. 
+    <repository>
         <id>nexus</id>
         <name>RepositoryProxy</name>
         <url>http://localhost:8080/nexus/content/repositories/releases</url>
     </repository>
-    <!-- use the following if you ARE using a snapshot version. -->
-   <!-- <snapshotRepository>
+    use the following if you ARE using a snapshot version.
+    <snapshotRepository>
         <id>nexus</id>
         <name>RepositoryProxy</name>
         <url>http://localhost:8080/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
 </distributionManagement>
 
-<!-- ycdydydytdytdjccxjcjc --> 
+ ycdydydytdytdjccxjcjc --> 
