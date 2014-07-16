@@ -77,8 +77,8 @@
 	</build>
 </project>
 
-	<distributionManagement>
-     <!--use the following if you're not using a snapshot version. -->
+<distributionManagement>
+     <!--use the following if you're not using a snapshot version. 
     <repository>
         <id>nexusrelease</id>
         <name>futorrelease</name>
